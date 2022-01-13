@@ -1,0 +1,12 @@
+.output {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: flex;
+  align-items: center;
+}

@@ -16,24 +16,22 @@
       <h1>Triangle Calculator</h1>
       <p>Input the length of each side of your triangle to learn which kind of triangle it is.</p>
     </div>
-    <div class="input-form">
-      <form>
-        <div class="form-row">
-          <div class="col">
-            <input id="side-1" type="text" class="form-control" placeholder="Side 1">
-          </div>
-          <div class="col">
-            <input id="side-2" type="text" class="form-control" placeholder="Side 2">
-          </div>
-          <div class="col">
-            <input id="side-3" type="text" class="form-control" placeholder="Side 3">
-          </div>
+    <form id=input-form>
+      <div class="form-row">
+        <div class="col">
+          <input id="side-1" type="text" class="form-control" placeholder="Side 1">
         </div>
-        <button id="submit-button" type="submit" class="btn btn-secondary">Calculate!</button>
-      </form>
-    </div>
+        <div class="col">
+          <input id="side-2" type="text" class="form-control" placeholder="Side 2">
+        </div>
+        <div class="col">
+          <input id="side-3" type="text" class="form-control" placeholder="Side 3">
+        </div>
+      </div>
+      <button id="submit-button" type="submit" class="btn btn-secondary">Calculate!</button>
+    </form>
     <div class="output">
-      <h3>Your triangle is <span id="triangle-id"></span>.</h3>
+      <h3>Your triangle is: <span id="triangle-id"></span></h3>
     </div>
   </div>
 </body>
