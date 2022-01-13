@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/scripts.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triangle Tracker</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Triangle Calculator</h1>
+      <p>Input the length of each side of your triangle to learn which kind of triangle it is.</p>
+    </div>
+    <div class="input-form">
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input id="side-1" type="text" class="form-control" placeholder="Side 1">
+          </div>
+          <div class="col">
+            <input id="side-2" type="text" class="form-control" placeholder="Side 2">
+          </div>
+          <div class="col">
+            <input id="side-3" type="text" class="form-control" placeholder="Side 3">
+          </div>
+        </div>
+        <button id="submit-button" type="submit" class="btn btn-secondary">Calculate!</button>
+      </form>
+    </div>
+    <div class="output">
+      <h3>Your triangle is <span id="triangle-id"></span>.</h3>
+    </div>
+  </div>
+</body>
+</html>
